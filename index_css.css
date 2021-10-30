@@ -11,11 +11,12 @@ body {
 
 
 form {
-  background: rgb(147, 5, 5, 0.2);
+  background: rgba(0, 0, 255, 0.473);
   padding: 2.5rem 2.5rem;
   border-radius: 2rem;
   width: 500px;
   margin: auto; 
+  box-shadow: 5px 5px 3px 3px solid black;
 }
 
 
@@ -51,10 +52,11 @@ form {
 .submit-button {
   width: 95%;
   padding: 0.75rem;
-  background: red;
+  background: green;
   color: white;
   border-radius: 2px;
   cursor: pointer;
+  margin-top: 5px;
 }
 
 #textarea {
