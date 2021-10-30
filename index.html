@@ -1,80 +1,76 @@
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-<!DOCTYPE html>
+<html>
 <head>
     <link type="text/css" href="index_css.css" rel="stylesheet">
 
 </head>
-<html>
-
-<Header>
-<h1 id="title"> Tesla Model Purchase </h1>
-</header> 
-
 <Body> 
-<p id="description">
- Fill details below to complete your Tesla order
-</p>
+  <Header>
+    <h1 id="title"> iphone Purchase </h1>
+  </header> 
+    
+  <p id="description">
+  Fill details below to complete your iphone order
+  </p>
 
 <form id="survey-form">
 
-<div class="input-headings">
-  
-  <label for="name" id="name-label"> Name </label>
-  <input id="name" type="text" name="name" placeholder="Vu Dang" class="form-inputs" required> </input>   
-<br>        
-  <label for="email" id="email-label"> Email </label>
-  <input id="email" type="email" name="email" placeholder="VuDang@tesla.com" class="form-inputs" required> </input>
-<br>
-  <label for="number" id="number-label"> Age </label>
-  <input id="number" type="number" name="number" min="18" max="100" placeholder="18" class="form-inputs" required> </input>
-<br>
-
-<label for="dropdown" id="model" style="width: 90vw;"> Select model </label>
-  <select id="dropdown">
-    <option value = "Model_S"> Model S</option>
-    <option value = "Model_3"> Model 3</option>
-    <option value = "Model_X"> Model X</option>
-    <option value = "Model_Y"> Model Y</option>
-    <option value = "Cyber_Truck"> Cyber Truck</option>
-  </select>
-<br>
-<br>
-
-<label for="model_color" id="model_color"> <b>Model color:</b> </label>
-<br>
-  <input id="model_color" type="radio" name="color" value="black">
-  <label for=""model_color"> Black </label>
-<br>
-  <input id="model_color" type="radio" name="color" value="white">
-  <label for="model_color"> White </label>
-<br>
-  <input id="model_color" type="radio" name="color" value="red">
-  <label for=""model_color"> Red </label>
-<br>
-<br>
-                           
-<label for="features"> <b>Add features:</b></label>
- <br>
-
-  <input id="checkbox" type="checkbox" name="features" value="autopilot">
-  <label for="checkbox"> Full Self-driving (Autopilot) - $10,000</label>
+  <div class="input-headings">
+    
+    <label for="name" id="name-label"> Name </label>
+    <input id="name" type="text" name="name" placeholder="enter your name" class="form-inputs" required> </input>   
+  <br>        
+    <label for="email" id="email-label"> Email </label>
+    <input id="email" type="email" name="email" placeholder="Enter your email" class="form-inputs" required> </input>
   <br>
-  <input id="checkbox" type="checkbox" name="features" value="dual_motor">
-  <label for="checkbox"> Dual Motor (All wheel drive) - $9,000</label>
+    <label for="number" id="number-label"> Age </label>
+    <input id="number" type="number" name="number" min="18" max="100" placeholder="Enter your age from 18 and above" class="form-inputs" required> </input>
   <br>
-  <input id="checkbox" type="checkbox" name="features" value="battery">
-  <label for="checkbox"> Performance Plus (Enhanced battery) - $7,500</label>          
-<br>
-<br>
 
-<label id="textarea">Additional instructions: </label>
-<br>
-<textarea id="textarea" name"instructions" rows="5" cols="59.5">
-</textarea>
-<br>
-  
-<input id="submit" type="submit" value="Place Order" class="submit-button">
+  <label for="dropdown" style="width: 90vw;"> Select iphone </label>
+    <select id="dropdown">
+      <option value = "iphone_9"> iphone 9</option>
+      <option value = "iphone_X"> iphone X </option>
+      <option value = "iphone_11"> iphone 11 </option>
+      <option value = "iphone_12"> iphone 12 </option>
+      <option value = "iphone_13"> iphone 13 </option>
+    </select>
+  <br>
+  <br>
+
+  <label for="phone_color" id="phone_color"> <b>phone color:</b> </label>
+  <br>
+    <input id="phone_color" type="radio" name="color" value="black">
+    <label for="phone_color"> Black </label>
+  <br>
+    <input id="phone_color" type="radio" name="color" value="white">
+    <label for="phone_color"> White </label>
+  <br>
+    <input id="phone_color" type="radio" name="color" value="red">
+    <label for="phone_color"> Red </label>
+  <br>
+  <br>
+                            
+  <label for="features"> <b>Add features:</b></label>
+  <br>
+
+    <input id="checkbox" type="checkbox" name="features" value="autopilot">
+    <label for="checkbox"> slim screen - $100</label>
+    <br>
+    <input id="checkbox" type="checkbox" name="features" value="dual_motor">
+    <label for="checkbox"> face recognition - $200</label>
+    <br>
+    <input id="checkbox" type="checkbox" name="features" value="battery">
+    <label for="checkbox"> finger print - $500</label>          
+  <br>
+  <br>
+
+  <label id="textarea">Additional Comments: </label>
+  <br>
+  <textarea id="textarea" name="instructions">
+  </textarea>
+  <br>
+    
+  <input id="submit" type="submit" value="Place Order" class="submit-button">
 
   </div>
   
